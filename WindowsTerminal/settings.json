@@ -1,7 +1,8 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
             "command": "paste",
             "keys": "ctrl+v"
@@ -11,7 +12,8 @@
             "keys": "ctrl+alt+space"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -30,7 +32,8 @@
             "keys": "alt+f4"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -42,13 +45,15 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "quakeMode"
             },
             "keys": "ctrl+shift+q"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "closeTab"
             },
             "keys": "ctrl+d"
@@ -62,19 +67,23 @@
     "language": "en-US",
     "minimizeToNotificationArea": true,
     "multiLinePasteWarning": false,
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
+    "profiles": 
+    {
         "defaults": {},
-        "list": [
+        "list": 
+        [
             {
                 "colorScheme": "Campbell Powershell",
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "elevate": true,
-                "font": {
+                "font": 
+                {
                     "face": "Fira Code"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -114,22 +123,24 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "C:\\Program Files\\Python312\\python.exe",
+                "commandline": "C:\\Users\\PaoloJr\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
                 "cursorHeight": 20,
                 "cursorShape": "vintage",
-                "font": {
+                "font": 
+                {
                     "face": "Fira Code"
                 },
                 "guid": "{8669ab01-cbc5-438e-96e6-b1eeccb95ea4}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\Python312\\Doc\\html\\_static\\py.png",
+                "icon": "C:\\Users\\PaoloJr\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\idlelib\\Icons\\idle.ico",
                 "name": "python",
                 "opacity": 80
             },
             {
                 "colorScheme": "Apple Classic",
                 "commandline": "psql -U postgres",
-                "font": {
+                "font": 
+                {
                     "face": "Fira Code"
                 },
                 "guid": "{d14a0569-6c1d-4cfe-864e-c45526d0dabe}",
@@ -141,7 +152,8 @@
             },
             {
                 "colorScheme": "Vintage",
-                "font": {
+                "font": 
+                {
                     "face": "Fira Code"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -152,7 +164,8 @@
             {
                 "colorScheme": "Solarized Dark",
                 "commandline": "\"Azure\"",
-                "font": {
+                "font": 
+                {
                     "face": "Fira Code"
                 },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -163,16 +176,18 @@
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "font": {
+                "font": 
+                {
                     "face": "Fira Code"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
-            },
+            }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#2C2B2B",
             "black": "#000000",
