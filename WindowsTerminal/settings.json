@@ -60,6 +60,7 @@
         }
     ],
     "alwaysShowNotificationIcon": true,
+    "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -79,7 +80,7 @@
         "list": 
         [
             {
-                "colorScheme": "Campbell Powershell",
+                "colorScheme": "Tango Dark",
                 "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
                 "elevate": true,
                 "font": 
@@ -93,15 +94,6 @@
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%",
                 "useAcrylic": false
-            },
-            {
-                "commandline": "nvim",
-                "guid": "{3f97c85c-17c7-4a81-953c-793c4b9e14c5}",
-                "hidden": false,
-                "icon": "C:\\Users\\PaoloJr\\SynologyDrive\\pj_stuff\\Web Images\\neovim.ico",
-                "name": "neovim",
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": null
             },
             {
                 "colorScheme": "Ubuntu-22.04-ColorScheme",
@@ -120,21 +112,6 @@
                 "name": "kali",
                 "opacity": 80,
                 "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "colorScheme": "One Half Dark",
-                "commandline": "C:\\Users\\PaoloJr\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
-                "cursorHeight": 20,
-                "cursorShape": "vintage",
-                "font": 
-                {
-                    "face": "Fira Code"
-                },
-                "guid": "{8669ab01-cbc5-438e-96e6-b1eeccb95ea4}",
-                "hidden": false,
-                "icon": "C:\\Users\\PaoloJr\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\idlelib\\Icons\\idle.ico",
-                "name": "python",
-                "opacity": 80
             },
             {
                 "colorScheme": "Apple Classic",
@@ -512,10 +489,11 @@
         }
     ],
     "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": false,
+    "showTerminalTitleInTitlebar": true,
     "startOnUserLogin": false,
     "tabSwitcherMode": "inOrder",
-    "tabWidthMode": "titleLength",
+    "tabWidthMode": "compact",
     "theme": "system",
-    "themes": []
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
