@@ -1,3 +1,3 @@
-[neovim](./nvim/)
-[PowerShell](./WindowsTerminal/PowerShell/)
+[neovim](./nvim/) \
+[PowerShell](./WindowsTerminal/PowerShell/) \
 [Windows Terminal](./WindowsTerminal/)
