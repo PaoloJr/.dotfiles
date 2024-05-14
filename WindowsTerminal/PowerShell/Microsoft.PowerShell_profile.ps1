@@ -1,4 +1,4 @@
-. "C:\Users\PaoloJr\Documents\PowerShell\gh-copilot.ps1"
+. "$PSScriptRoot\gh-copilot.ps1"
 
 ### PowerShell Profile Refactor
 ### Version 1.03 - Refactored
