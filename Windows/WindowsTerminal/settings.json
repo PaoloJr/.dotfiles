@@ -112,19 +112,6 @@
                 "startingDirectory": "~"
             },
             {
-                "colorScheme": "Apple Classic",
-                "commandline": "psql -U postgres",
-                "font": {
-                    "face": "Fira Code"
-                },
-                "guid": "{d14a0569-6c1d-4cfe-864e-c45526d0dabe}",
-                "hidden": false,
-                "icon": "C:\\Program Files\\PostgreSQL\\16\\scripts\\images\\pgAdmin4.ico",
-                "name": "psql",
-                "opacity": 80,
-                "tabTitle": "psql"
-            },
-            {
                 "colorScheme": "Vintage",
                 "font": {
                     "face": "Fira Code"
