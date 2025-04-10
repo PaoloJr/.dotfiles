@@ -5,7 +5,9 @@ alias ls='ls --color=auto'
 alias la='ls -A'
 alias ll='ls -laF'
 # WSL
-alias cdgw='cd /mnt/c/Users/$USER/Documents/GitHub'
+# tr -d to delete the return-feed character
+winUser=$(powershell.exe -Command '$env:USERNAME' | tr -d '\r')
+alias cdgw='cd /mnt/c/Users/$winUser/Documents/GitHub'
 
 # git
 alias gs='git status'
